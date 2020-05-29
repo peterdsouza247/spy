@@ -8,6 +8,8 @@ df = pandas.DataFrame(columns = ["Start", "End"])
 
 OBJ_MIN_SIZE_FOR_DETECTION = 10000
 
+print("Press key 'q' to quit.")
+
 video = cv2.VideoCapture(0)
 
 while True:
